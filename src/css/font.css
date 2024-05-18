@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+h5,
+h3,
+.text-small{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0.5rem 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+h5{
+  font-family: "Roboto Condensed";
+}
+
+h3{
+  font-family: "poppins";
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h4,
+.text-medium{
+  font-size: 12px;
+  text-align: center;
+}
+
+.small{
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.icon-extra-small{
+  width: 24px;
+}
+
+.icon_medium{
+  font-size: 29px;
+}
+
+.icon-regular{
+  width: 36px;
+}
+
+.icon_large{
+  width: 50px;
+}
+
+@media screen and (min-width: 900px) {
+  h5{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .text-small{
+    font-size: 15px;
+  }
+  h4,
+  .text-medium{
+    font-size: 16px;
+  }
+  .small{
+    font-size: 18px;
+  }
+  .icon-small{
+    width: 23px;
+    height: 23px;
+  }
+  .icon_medium{
+    font-size: 34px;
+  }
+  .icon-regular{
+    width: 42px;
+  }
+  .icon_large{
+    width: 60px;
+  }
+}

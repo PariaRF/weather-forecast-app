@@ -1,0 +1,42 @@
+/* @font-face {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../public/assets/fonts/poppins.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../public/assets/fonts/poppins-regular.woff2") format("woff2");
+} */
+
+@font-face {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../../public/assets/fonts/Poppins-ExtraLight.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "robotocondenced";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../../public/assets/fonts/RobotoCondensed-VariableFont_wght.ttf") format("ttf");
+}
+
+/* :root,
+body{
+    font-family: "poppins", "robotocondenced", Arial, sans-serif;
+} */
+
+h3{
+    /* font-family: "poppins"; */
+}
+
+h5{
+    line-height: 1;
+    /* text-align: center; */
+    /* font-family: "robotocondenced"; */
+}
